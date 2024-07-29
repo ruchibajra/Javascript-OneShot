@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+h1{
+    color: white;
+}
+
 body{
     background-color: #548687;
     text-align: center;
@@ -32,10 +36,20 @@ body{
 .box{
     height: 18vmin;
     width: 18vmin;
-    /* background-color: orange; */
+    background-color: #ffffc7;
     border-radius: 1rem;
     border: none;
     box-shadow: 0 0 1rem rgba(0,0,0,0.2);
     font-size: 8vmin;
     color: #548687;;
+}
+
+#btn-reset{
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
 }
