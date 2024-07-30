@@ -53,3 +53,32 @@ body{
     font-size: 16px;
     font-weight: bold;
 }
+
+#btn-new{
+    background-color: rgb(17, 76, 6);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#msg{
+    color : #ffffc7;
+    font-size: 5vmin;
+
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:4rem ;
+}
+
+.hide{
+    display: none;
+}
